@@ -12,6 +12,16 @@
         <title>This is a title</title>
     </head>
     <body>
-        <h1>Hello Chrome!</h1>
+        <h1>Login</h1>
+        <form method="POST" action="login">
+            <label>Enter your username:</label>
+            <input type="text" name="username"><br><br>
+            
+            <label>Enter your password:</label>
+            <input type="password" name="password"><br><br>
+            
+            <input type="submit" name="login" value="Log In">
+        </form>
+        
     </body>
 </html>
